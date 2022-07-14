@@ -6,13 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
+    <div class="wrap-container">
     <header id="header">
         <div class="logo">
-            <img id="header-img" src="img/logo.png" alt="logo">
+            <img id="header-img" src="img/logotype.png" alt="logo">
         </div>
         <nav id="nav-bar">
             <ul>
@@ -29,8 +36,8 @@
         </nav>
     </header>
     <main>
-        <section class="central_form">
-            <h2>Handcrafted, home-made masterpieces</h2>
+        <section class="central_form" id="feature">
+            <h2>Protection of summer cottages</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
                 <input type="email" id="email" name="email" placeholder="Enter your email address" pattern="*@*"
                     required>
@@ -40,78 +47,80 @@
         <div class="container">
             <section id="features">
                 <div class="grid">
-                    <div class="fire_icon">
+                    <div class="fire">
                         <img class="fire_icon" src="img/fire.png" width="27" alt="fire">
                     </div>
                     <div class="description">
-                        <h2>Premium Materials</h2>
-                        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the
-                            longevity
-                            of your purchase.
+                        <h2>Disposal</h2>
+                        <p>First, the company's specialists conduct an inspection. 
+                            The places of localization of uninvited guests are identified and the 
+                            most effective methods for their destruction are determined.
                         </p>
                     </div>
                 </div>
                 <div class="grid">
-                    <div class="delivery_icon">
-                        <img class="delivery" src="img/delivery.png" width="35" alt="delivery">
+                    <div class="delivery">
+                        <img class="delivery_icon" src="img/delivery.png" width="35" alt="delivery">
                     </div>
                     <div class="description">
-                        <h2>Fast Shipping</h2>
-                        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide
-                            free returns if you are not satisfied.
+                        <h2>Rapidity</h2>
+                        <p>In order to completely destroy pests, we use methods of processing 
+                            the site with special equipment. Special equipment has a pervasive effect, 
+                            which allows you to achieve maximum efficiency in a short period.
                         </p>
                     </div>
                 </div>
                     <div class="grid">
-                        <div class="battery_icon">
-                            <img class="battery" src="img/battery.png" width="27">
+                        <div class="battery">
+                            <img class="battery_icon" src="img/battery.png" width="27">
                         </div>
                         <div class="description">
-                            <h2>Quality Assurance</h2>
-                            <p>For every purchase you make, we will ensure there are no damages or faults and we will
-                                check and test the pitch of your instrument.</p>
+                            <h2 id="how">Monitoring</h2>
+                            <p>Only regular verification, carried out by our specialists after 
+                                the implementation of a set of measures to destroy the invaders 
+                                in the apartment or in any other room, will prevent their reappearance.</p>
                         </div>
                     </div>
             </section>
             <section id="how-it-works">
                 <iframe id="video" height="315"
-                    src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+                    src="https://www.youtube-nocookie.com/embed/5mVnfPstymw?rel=0&amp;controls=0&amp;showinfo=0"
                     frameborder="0" allowfullscreen=""></iframe>
             </section>
             <section id="pricing">
                 <div class="product" id="tenor">
-                    <div class="level">Tenor Trombone
+                    <div class="level">Shooting
                     </div>
                         <h2>$600</h2>
                         <ol>
-                            <li>Lorem ipsum.</li>
-                            <li>Lorem ipsum.</li>
-                            <li>Lorem ipsum.</li>
-                            <li>Lorem ipsum.</li>
+                            <li>Arrival.</li>
+                            <li>Shooting.</li>
+                            <li>Checking.</li>
+                            <li>Leaving.</li>
                         </ol>
                         <button class="button">Select</button>
                 </div>
                 <div class="product" id="bass">
-                    <div class="level">Bass Trombone
+                    <div class="level">Shoot ` n ` Clean
                     </div>
                         <h2>$900</h2>
                         <ol>
-                            <li>Lorem ipsum.</li>
-                            <li>Lorem ipsum.</li>
-                            <li>Lorem ipsum.</li>
-                            <li>Lorem ipsum.</li>
+                            <li>Arrival.</li>
+                            <li>Shooting.</li>
+                            <li>Cleaning.</li>                            
+                            <li>Checking.</li>
                         </ol>
                         <button class="button">Select</button>
                 </div>
                 <div class="product" id="valve">
-                    <div class="level">Valve Trombone
+                    <div class="level">Shoot ` n ` Patroll
                     </div>
                         <h2>$1200</h2>
                         <ol>
-                            <li>Lorem ipsum.</li>
-                            <li>Lorem ipsum.</li>
-                            <li>Lorem ipsum.</li>
-                            <li>Lorem ipsum.</li>
+                            <li>Arrival.</li>
+                            <li>Shooting.</li>
+                            <li>Cleaning.</li>                            
+                            <li>Patrolling.</li>
                         </ol>
                         <button class="button">Select</button>
                 </div>
@@ -124,8 +133,9 @@
             <li><a href="#">Terms</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-        <span>Copyright 2016, Original Trombones</span>
+        <span>Copyright 2022, Union of Summer Residents </span>
     </footer>
+</div>
 </body>
 
 </html>
