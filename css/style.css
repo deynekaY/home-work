@@ -212,7 +212,7 @@ footer > ul > li {
 }
 
 footer > span {
-    margin-top: 5px;
+    margin: 0px 9px 12px 0px;
     display: flex;
     justify-content: flex-end;
     font-size: 0.9em;
