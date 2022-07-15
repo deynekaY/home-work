@@ -91,6 +91,9 @@ input[type='submit'] {
     height: 315px;
     border: 0px;
 }
+#video h2 {
+    display: none;
+}
 
 #pricing {
     margin-top: 150px;
