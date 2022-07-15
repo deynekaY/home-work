@@ -89,6 +89,7 @@ input[type='submit'] {
 
 #video {
     height: 315px;
+    border: 0px;
 }
 
 #pricing {
