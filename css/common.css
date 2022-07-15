@@ -1,5 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    font-family: 'New Rocker', cursive;
+    font-size: larger;
+    --p-color: #6c6b6b;
+    --h2-background-color: #96bb03f7;
+    --button-color: #d71010;
+    --main-text: #000;
+    --icon-color: #ff8c00;
+    --body-color: #fff;
+
+}
+
+body {
+    background-image: url(body.png);
 }

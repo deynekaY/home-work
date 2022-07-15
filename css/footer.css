@@ -1,0 +1,25 @@
+footer {
+    margin-top: 30px;
+    background-image: url(bottom-bg.png);
+    min-height: 84px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -10px;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer > ul > li {
+    padding: 0 10px;
+}
+
+footer > span {
+    margin: 10px 9px 12px 0px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: var(--p-color);
+}
